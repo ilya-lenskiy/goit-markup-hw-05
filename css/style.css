@@ -31,6 +31,13 @@ a {
   text-decoration: none;
   font-style: normal;
 }
+.hidden-title {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 
 /* HEADER */
 
@@ -1151,7 +1158,7 @@ footer {
 .modal-icon {
   position: absolute;
   left: 12px;
-  top: 50%;
+  top: 20%;
   transform: translateY(-50%);
   width: 18px;
   height: 18px;
